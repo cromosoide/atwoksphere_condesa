@@ -15973,10 +15973,14 @@ body,html {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(https://i.ibb.co/fNgrmc5/Logo-atworkpshere-color-alt-2.png);
+    /* background-image: url(https://i.ibb.co/fNgrmc5/Logo-atworkpshere-color-alt-2.png);
     background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1
+    background-position: center; */
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .tai__hero .overlay svg {
