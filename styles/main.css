@@ -16686,15 +16686,15 @@ img {
 }
 
 .tai__partners {
-    padding: 15rem 0;
+    /* padding: 15rem 0; */
     margin-bottom: 10rem;
     overflow: hidden
 }
 
 @media (max-width: 575.98px) {
-    .tai__partners {
+    /* .tai__partners {
         padding:10rem 0 0
-    }
+    } */
 }
 
 .tai__partners__sticky {
@@ -16806,7 +16806,7 @@ img {
     justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: baseline;
 }
 
 @media (max-width: 575.98px) {
@@ -16820,6 +16820,12 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
+    
+}
+
+.icons_social-media{
+    margin-left: 10px;
+    
 }
 
 /* .tai__footer__bottom__links>:not(:last-child) {
