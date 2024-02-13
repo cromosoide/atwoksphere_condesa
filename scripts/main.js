@@ -336,9 +336,9 @@
             !1
         }),
         c(".tai__footer__bottom a[data-modal]").on("click", function() {
-            var t = c('[data-modal="mentions-legales"]').offset()
-              , e = c('[data-modal="mentions-legales"]').width()
-              , o = (c('[data-modal="mentions-legales"]').height(),
+            var t = c('[data-modal="aviso-de-privacidad"]').offset()
+              , e = c('[data-modal="aviso-de-privacidad"]').width()
+              , o = (c('[data-modal="aviso-de-privacidad"]').height(),
             t.left + e / 2);
             c(".tai__mentions").css({
                 "clip-path": "circle(0% at " + o + "px 95%)"
@@ -357,9 +357,9 @@
             })
         }),
         c(".tai__mentions .close").on("click", function() {
-            var t = c('[data-modal="mentions-legales"]').offset()
-              , e = c('[data-modal="mentions-legales"]').width()
-              , o = (c('[data-modal="mentions-legales"]').height(),
+            var t = c('[data-modal="aviso-de-privacidad"]').offset()
+              , e = c('[data-modal="aviso-de-privacidad"]').width()
+              , o = (c('[data-modal="aviso-de-privacidad"]').height(),
             t.left + e / 2);
             c(".tai__mentions").css({
                 "clip-path": "circle(140% at " + o + "px 95%)"
