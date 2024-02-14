@@ -324,7 +324,7 @@
             };
             return c.ajax({
                 method: "POST",
-                url: "https://formsubmit.co/ajax/contact@taiko.studio",
+                url: "https://formsubmit.co/ajax/contactosantiago.mar@gmail.com",
                 dataType: "json",
                 accepts: "application/json",
                 data: t,
