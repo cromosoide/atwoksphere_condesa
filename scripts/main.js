@@ -318,9 +318,14 @@
         }),
         c(".tai__contact form").on("submit", function() {
             var t = {
-                name: c("#taiko-contact-name").val(),
+                nombre: c("#taiko-contact-name").val(),
+                empresa: c("#taiko-contact-empresa").val(),
                 email: c("#taiko-contact-email").val(),
-                phone: c("#taiko-contact-phone").val()
+                teléfono: c("#taiko-contact-phone").val(),
+                mensaje: c("#taiko-contact-mensaje").val(),
+                servicio: c("#taiko-contact-servicio").val(),
+                
+                
             };
             return c.ajax({
                 method: "POST",
