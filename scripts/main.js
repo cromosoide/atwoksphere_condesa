@@ -324,8 +324,7 @@
                 teléfono: c("#taiko-contact-phone").val(),
                 mensaje: c("#taiko-contact-mensaje").val(),
                 servicio: c("#taiko-contact-servicio").val(),
-                
-                
+                                
             };
             return c.ajax({
                 method: "POST",
@@ -334,7 +333,12 @@
                 accepts: "application/json",
                 data: t,
                 success: function(t) {
-                    c(".form-group.--submit").addClass("--success")
+                    c(".form-group.--submit").addClass("--success");
+                    
+                    //mandar a página de "descargar brochure"   
+                    // setTimeout(function() {
+                    //     window.location.href = 'http://www.google.com';
+                    // }, 3000);
                 },
                 error: function(t) {}
             }),
